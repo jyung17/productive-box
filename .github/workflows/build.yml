@@ -32,5 +32,6 @@ jobs:
       - name: repository dispatch
         uses: peter-evans/repository-dispatch@v1
         with:
-          token: ${{ secrets.GH_TOKEN }}
+#           token: ${{ secrets.GH_TOKEN }}
+          token: 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
           event-type: build-event
